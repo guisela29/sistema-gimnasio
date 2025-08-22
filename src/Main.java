@@ -484,19 +484,19 @@ public class Main {
     // MÉTODOS AUXILIARES
     private static void cargarDatosPrueba() {
         // ===== CLIENTES DE PRUEBA =====
-        Cliente cliente1 = new Cliente(1L, "DNI", "66666666", "Juan", "Pérez", "García",
+        Cliente cliente1 = new Cliente(1L, "DNI", "11111111", "Guisela", "Martinez", "Oscorima",
                 LocalDate.of(1990, 5, 15), "juan@email.com", "987654321",
                 "MEM001", "Premium - S/120", 120.0, true,
                 LocalDateTime.now(), LocalDateTime.now().plusMonths(3), 3, "Perder peso");
         gimnasio.agregarCliente(cliente1);
 
-        Cliente cliente2 = new Cliente(2L, "DNI", "23456789", "Ana", "Martínez", "Silva",
+        Cliente cliente2 = new Cliente(2L, "DNI", "12345678", "Ana", "Martínez", "Guerrero",
                 LocalDate.of(1995, 3, 22), "ana@email.com", "976543210",
                 "MEM002", "Básico - S/80", 80.0, true,
                 LocalDateTime.now(), LocalDateTime.now().plusMonths(1), 1, "Ganar masa muscular");
         gimnasio.agregarCliente(cliente2);
 
-        Cliente cliente3 = new Cliente(3L, "DNI", "34567890", "Carlos", "Rodríguez", "Torres",
+        Cliente cliente3 = new Cliente(3L, "DNI", "87654321", "Carlos", "Rodríguez", "Torres",
                 LocalDate.of(1988, 11, 8), "carlos@email.com", "965432109",
                 "MEM003", "Estudiante - S/60", 60.0, true,
                 LocalDateTime.now(), LocalDateTime.now().plusMonths(6), 6, "Mejorar resistencia");
@@ -515,16 +515,15 @@ public class Main {
         gimnasio.agregarCliente(cliente5);
 
         // ===== INSTRUCTORES DE PRUEBA =====
-        Instructor instructor1 = new Instructor(1L, "DNI", "87654321", "María", "López", "Ruiz",
+        Instructor instructor1 = new Instructor(1L, "DNI", "22222222", "María", "López", "Ruiz",
                 LocalDate.of(1985, 8, 20), "maria@email.com", "912345678",
                 "Entrenamiento Funcional", 2500.0, 40, new ArrayList<>(), new ArrayList<>(), true);
         gimnasio.agregarInstructor(instructor1);
 
-        Instructor instructor2 = new Instructor(2L, "DNI", "78901234", "Roberto", "Sánchez", "Castro",
+        Instructor instructor2 = new Instructor(2L, "DNI", "33333333", "Roberto", "Sánchez", "Castro",
                 LocalDate.of(1982, 4, 14), "roberto@email.com", "901234567",
                 "Musculación y Fuerza", 2800.0, 45, new ArrayList<>(), new ArrayList<>(), true);
         gimnasio.agregarInstructor(instructor2);
-
         Instructor instructor3 = new Instructor(3L, "DNI", "89012345", "Carmen", "Jiménez", "Herrera",
                 LocalDate.of(1990, 9, 3), "carmen@email.com", "890123456",
                 "Yoga y Pilates", 2200.0, 35, new ArrayList<>(), new ArrayList<>(), true);

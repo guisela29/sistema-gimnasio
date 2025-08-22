@@ -104,7 +104,7 @@ public class Cliente extends Persona {
     @Override
     public void mostrarInformacion() {
         System.out.println("=== INFORMACIÓN DEL CLIENTE ===");
-        System.out.println("Nombre: " + getNombres() + " " + getApellidoPaterno());
+        System.out.println("Nombre: " + getNombres() + " " + getApellidoPaterno() + " " + getApellidoMaterno());
         System.out.println("Documento: " + getDocumentoIdentidad());
         System.out.println("Membresía: " + codigoMembresia);
         System.out.println("Plan: " + planSuscripcion);

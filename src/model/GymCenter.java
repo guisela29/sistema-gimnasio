@@ -90,10 +90,10 @@ public class GymCenter {
         this.ingresosTotales = ingresosTotales;
     }
     private void inicializarPlanesBasicos() {
-        planesDisponibles.add("Básico - S/80");
-        planesDisponibles.add("Premium - S/120");
-        planesDisponibles.add("VIP - S/180");
-        planesDisponibles.add("Estudiante - S/60");
+        planesDisponibles.add("Básico - S/100");
+        planesDisponibles.add("Premium - S/150");
+        planesDisponibles.add("VIP - S/200");
+        planesDisponibles.add("Estudiante - S/50");
     }
     // Agregar cliente
     public boolean agregarCliente(Cliente cliente) {

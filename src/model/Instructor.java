@@ -85,7 +85,7 @@ public class Instructor extends Persona {
     @Override
     public void mostrarInformacion() {
         System.out.println("=== INFORMACIÓN DEL INSTRUCTOR ===");
-        System.out.println("Nombre: " + getNombres() + " " + getApellidoPaterno());
+        System.out.println("Nombre: " + getNombres() + " " + getApellidoPaterno() + " " + getApellidoMaterno());
         System.out.println("Especialidad: " + especialidad);
         System.out.println("Salario Base: S/ " + salarioBase);
         System.out.println("Horas Trabajadas: " + horasTrabajadas);
